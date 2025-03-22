@@ -7,5 +7,5 @@ export default async function Page() {
 
   let data = await supabase.from('users').select('*')
   console.log(data)
-  return <div></div>
+  return <div>Main Page</div>
 }
